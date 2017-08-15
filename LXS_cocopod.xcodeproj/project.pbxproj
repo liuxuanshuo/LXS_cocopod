@@ -15,6 +15,8 @@
 		65CCCAE51F42DDCA004D1B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CCCAE31F42DDCA004D1B63 /* LaunchScreen.storyboard */; };
 		65CCCAF01F42DDCA004D1B63 /* LXS_cocopodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCAEF1F42DDCA004D1B63 /* LXS_cocopodTests.m */; };
 		65CCCAFB1F42DDCA004D1B63 /* LXS_cocopodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCAFA1F42DDCA004D1B63 /* LXS_cocopodUITests.m */; };
+		65CCCB0E1F42E698004D1B63 /* cocoapod说明.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 65CCCB0D1F42E698004D1B63 /* cocoapod说明.rtf */; };
+		E07EBA3EA05CFD59026345B9 /* libPods-LXS_cocopod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 563227A29DF336A42FA0A5D2 /* libPods-LXS_cocopod.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563227A29DF336A42FA0A5D2 /* libPods-LXS_cocopod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXS_cocopod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CCCAD21F42DDCA004D1B63 /* LXS_cocopod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXS_cocopod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CCCAD61F42DDCA004D1B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65CCCAD81F42DDCA004D1B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		65CCCAF61F42DDCA004D1B63 /* LXS_cocopodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXS_cocopodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CCCAFA1F42DDCA004D1B63 /* LXS_cocopodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXS_cocopodUITests.m; sourceTree = "<group>"; };
 		65CCCAFC1F42DDCA004D1B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CCCB0D1F42E698004D1B63 /* cocoapod说明.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "cocoapod说明.rtf"; path = "文本信息/cocoapod说明.rtf"; sourceTree = "<group>"; };
+		B13F732D38D7B5BC35AFB565 /* Pods-LXS_cocopod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXS_cocopod.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXS_cocopod/Pods-LXS_cocopod.release.xcconfig"; sourceTree = "<group>"; };
+		CF9B3CE1D4D1353DF42341B3 /* Pods-LXS_cocopod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXS_cocopod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXS_cocopod/Pods-LXS_cocopod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E07EBA3EA05CFD59026345B9 /* libPods-LXS_cocopod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF1BCB76A7BBAE81CDF33EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				563227A29DF336A42FA0A5D2 /* libPods-LXS_cocopod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46AE73C408B28516D419BF0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF9B3CE1D4D1353DF42341B3 /* Pods-LXS_cocopod.debug.xcconfig */,
+				B13F732D38D7B5BC35AFB565 /* Pods-LXS_cocopod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65CCCAC91F42DDC9004D1B63 = {
 			isa = PBXGroup;
 			children = (
+				65CCCB0C1F42E662004D1B63 /* 文本信息 */,
 				65CCCAD41F42DDCA004D1B63 /* LXS_cocopod */,
 				65CCCAEE1F42DDCA004D1B63 /* LXS_cocopodTests */,
 				65CCCAF91F42DDCA004D1B63 /* LXS_cocopodUITests */,
 				65CCCAD31F42DDCA004D1B63 /* Products */,
+				46AE73C408B28516D419BF0B /* Pods */,
+				0DF1BCB76A7BBAE81CDF33EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,14 @@
 			path = LXS_cocopodUITests;
 			sourceTree = "<group>";
 		};
+		65CCCB0C1F42E662004D1B63 /* 文本信息 */ = {
+			isa = PBXGroup;
+			children = (
+				65CCCB0D1F42E698004D1B63 /* cocoapod说明.rtf */,
+			);
+			name = "文本信息";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65CCCAFF1F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopod" */;
 			buildPhases = (
+				39B5FECE36E019C8AD9F9FD6 /* [CP] Check Pods Manifest.lock */,
 				65CCCACE1F42DDCA004D1B63 /* Sources */,
 				65CCCACF1F42DDCA004D1B63 /* Frameworks */,
 				65CCCAD01F42DDCA004D1B63 /* Resources */,
+				20E9CBA70C3AEF3F4FC01C54 /* [CP] Embed Pods Frameworks */,
+				A3479CE521847053E5C72EC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +286,7 @@
 			files = (
 				65CCCAE51F42DDCA004D1B63 /* LaunchScreen.storyboard in Resources */,
 				65CCCAE21F42DDCA004D1B63 /* Assets.xcassets in Resources */,
+				65CCCB0E1F42E698004D1B63 /* cocoapod说明.rtf in Resources */,
 				65CCCAE01F42DDCA004D1B63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +306,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E9CBA70C3AEF3F4FC01C54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXS_cocopod/Pods-LXS_cocopod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B5FECE36E019C8AD9F9FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3479CE521847053E5C72EC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXS_cocopod/Pods-LXS_cocopod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65CCCACE1F42DDCA004D1B63 /* Sources */ = {
@@ -424,9 +511,11 @@
 		};
 		65CCCB001F42DDCA004D1B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9B3CE1D4D1353DF42341B3 /* Pods-LXS_cocopod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXS_cocopod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopod";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +524,11 @@
 		};
 		65CCCB011F42DDCA004D1B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13F732D38D7B5BC35AFB565 /* Pods-LXS_cocopod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXS_cocopod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopod";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +600,7 @@
 				65CCCB011F42DDCA004D1B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65CCCB021F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopodTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +609,7 @@
 				65CCCB041F42DDCA004D1B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65CCCB051F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopodUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +618,7 @@
 				65CCCB071F42DDCA004D1B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
