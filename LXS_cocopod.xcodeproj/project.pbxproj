@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65CCCAD71F42DDCA004D1B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCAD61F42DDCA004D1B63 /* main.m */; };
+		65CCCADA1F42DDCA004D1B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCAD91F42DDCA004D1B63 /* AppDelegate.m */; };
+		65CCCADD1F42DDCA004D1B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCADC1F42DDCA004D1B63 /* ViewController.m */; };
+		65CCCAE01F42DDCA004D1B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CCCADE1F42DDCA004D1B63 /* Main.storyboard */; };
+		65CCCAE21F42DDCA004D1B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65CCCAE11F42DDCA004D1B63 /* Assets.xcassets */; };
+		65CCCAE51F42DDCA004D1B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CCCAE31F42DDCA004D1B63 /* LaunchScreen.storyboard */; };
+		65CCCAF01F42DDCA004D1B63 /* LXS_cocopodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCAEF1F42DDCA004D1B63 /* LXS_cocopodTests.m */; };
+		65CCCAFB1F42DDCA004D1B63 /* LXS_cocopodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CCCAFA1F42DDCA004D1B63 /* LXS_cocopodUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65CCCAEC1F42DDCA004D1B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CCCACA1F42DDC9004D1B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CCCAD11F42DDCA004D1B63;
+			remoteInfo = LXS_cocopod;
+		};
+		65CCCAF71F42DDCA004D1B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65CCCACA1F42DDC9004D1B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65CCCAD11F42DDCA004D1B63;
+			remoteInfo = LXS_cocopod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65CCCAD21F42DDCA004D1B63 /* LXS_cocopod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXS_cocopod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CCCAD61F42DDCA004D1B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65CCCAD81F42DDCA004D1B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65CCCAD91F42DDCA004D1B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65CCCADB1F42DDCA004D1B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65CCCADC1F42DDCA004D1B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65CCCADF1F42DDCA004D1B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65CCCAE11F42DDCA004D1B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65CCCAE41F42DDCA004D1B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65CCCAE61F42DDCA004D1B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CCCAEB1F42DDCA004D1B63 /* LXS_cocopodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXS_cocopodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CCCAEF1F42DDCA004D1B63 /* LXS_cocopodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXS_cocopodTests.m; sourceTree = "<group>"; };
+		65CCCAF11F42DDCA004D1B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65CCCAF61F42DDCA004D1B63 /* LXS_cocopodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXS_cocopodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CCCAFA1F42DDCA004D1B63 /* LXS_cocopodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXS_cocopodUITests.m; sourceTree = "<group>"; };
+		65CCCAFC1F42DDCA004D1B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65CCCACF1F42DDCA004D1B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCAE81F42DDCA004D1B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCAF31F42DDCA004D1B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65CCCAC91F42DDC9004D1B63 = {
+			isa = PBXGroup;
+			children = (
+				65CCCAD41F42DDCA004D1B63 /* LXS_cocopod */,
+				65CCCAEE1F42DDCA004D1B63 /* LXS_cocopodTests */,
+				65CCCAF91F42DDCA004D1B63 /* LXS_cocopodUITests */,
+				65CCCAD31F42DDCA004D1B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65CCCAD31F42DDCA004D1B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65CCCAD21F42DDCA004D1B63 /* LXS_cocopod.app */,
+				65CCCAEB1F42DDCA004D1B63 /* LXS_cocopodTests.xctest */,
+				65CCCAF61F42DDCA004D1B63 /* LXS_cocopodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65CCCAD41F42DDCA004D1B63 /* LXS_cocopod */ = {
+			isa = PBXGroup;
+			children = (
+				65CCCAD81F42DDCA004D1B63 /* AppDelegate.h */,
+				65CCCAD91F42DDCA004D1B63 /* AppDelegate.m */,
+				65CCCADB1F42DDCA004D1B63 /* ViewController.h */,
+				65CCCADC1F42DDCA004D1B63 /* ViewController.m */,
+				65CCCADE1F42DDCA004D1B63 /* Main.storyboard */,
+				65CCCAE11F42DDCA004D1B63 /* Assets.xcassets */,
+				65CCCAE31F42DDCA004D1B63 /* LaunchScreen.storyboard */,
+				65CCCAE61F42DDCA004D1B63 /* Info.plist */,
+				65CCCAD51F42DDCA004D1B63 /* Supporting Files */,
+			);
+			path = LXS_cocopod;
+			sourceTree = "<group>";
+		};
+		65CCCAD51F42DDCA004D1B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65CCCAD61F42DDCA004D1B63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65CCCAEE1F42DDCA004D1B63 /* LXS_cocopodTests */ = {
+			isa = PBXGroup;
+			children = (
+				65CCCAEF1F42DDCA004D1B63 /* LXS_cocopodTests.m */,
+				65CCCAF11F42DDCA004D1B63 /* Info.plist */,
+			);
+			path = LXS_cocopodTests;
+			sourceTree = "<group>";
+		};
+		65CCCAF91F42DDCA004D1B63 /* LXS_cocopodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65CCCAFA1F42DDCA004D1B63 /* LXS_cocopodUITests.m */,
+				65CCCAFC1F42DDCA004D1B63 /* Info.plist */,
+			);
+			path = LXS_cocopodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65CCCAD11F42DDCA004D1B63 /* LXS_cocopod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CCCAFF1F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopod" */;
+			buildPhases = (
+				65CCCACE1F42DDCA004D1B63 /* Sources */,
+				65CCCACF1F42DDCA004D1B63 /* Frameworks */,
+				65CCCAD01F42DDCA004D1B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXS_cocopod;
+			productName = LXS_cocopod;
+			productReference = 65CCCAD21F42DDCA004D1B63 /* LXS_cocopod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65CCCAEA1F42DDCA004D1B63 /* LXS_cocopodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CCCB021F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopodTests" */;
+			buildPhases = (
+				65CCCAE71F42DDCA004D1B63 /* Sources */,
+				65CCCAE81F42DDCA004D1B63 /* Frameworks */,
+				65CCCAE91F42DDCA004D1B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CCCAED1F42DDCA004D1B63 /* PBXTargetDependency */,
+			);
+			name = LXS_cocopodTests;
+			productName = LXS_cocopodTests;
+			productReference = 65CCCAEB1F42DDCA004D1B63 /* LXS_cocopodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65CCCAF51F42DDCA004D1B63 /* LXS_cocopodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65CCCB051F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopodUITests" */;
+			buildPhases = (
+				65CCCAF21F42DDCA004D1B63 /* Sources */,
+				65CCCAF31F42DDCA004D1B63 /* Frameworks */,
+				65CCCAF41F42DDCA004D1B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65CCCAF81F42DDCA004D1B63 /* PBXTargetDependency */,
+			);
+			name = LXS_cocopodUITests;
+			productName = LXS_cocopodUITests;
+			productReference = 65CCCAF61F42DDCA004D1B63 /* LXS_cocopodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65CCCACA1F42DDC9004D1B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liuxuanshuo;
+				TargetAttributes = {
+					65CCCAD11F42DDCA004D1B63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					65CCCAEA1F42DDCA004D1B63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65CCCAD11F42DDCA004D1B63;
+					};
+					65CCCAF51F42DDCA004D1B63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65CCCAD11F42DDCA004D1B63;
+					};
+				};
+			};
+			buildConfigurationList = 65CCCACD1F42DDC9004D1B63 /* Build configuration list for PBXProject "LXS_cocopod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65CCCAC91F42DDC9004D1B63;
+			productRefGroup = 65CCCAD31F42DDCA004D1B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65CCCAD11F42DDCA004D1B63 /* LXS_cocopod */,
+				65CCCAEA1F42DDCA004D1B63 /* LXS_cocopodTests */,
+				65CCCAF51F42DDCA004D1B63 /* LXS_cocopodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65CCCAD01F42DDCA004D1B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CCCAE51F42DDCA004D1B63 /* LaunchScreen.storyboard in Resources */,
+				65CCCAE21F42DDCA004D1B63 /* Assets.xcassets in Resources */,
+				65CCCAE01F42DDCA004D1B63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCAE91F42DDCA004D1B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCAF41F42DDCA004D1B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65CCCACE1F42DDCA004D1B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CCCADD1F42DDCA004D1B63 /* ViewController.m in Sources */,
+				65CCCADA1F42DDCA004D1B63 /* AppDelegate.m in Sources */,
+				65CCCAD71F42DDCA004D1B63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCAE71F42DDCA004D1B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CCCAF01F42DDCA004D1B63 /* LXS_cocopodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CCCAF21F42DDCA004D1B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CCCAFB1F42DDCA004D1B63 /* LXS_cocopodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65CCCAED1F42DDCA004D1B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CCCAD11F42DDCA004D1B63 /* LXS_cocopod */;
+			targetProxy = 65CCCAEC1F42DDCA004D1B63 /* PBXContainerItemProxy */;
+		};
+		65CCCAF81F42DDCA004D1B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65CCCAD11F42DDCA004D1B63 /* LXS_cocopod */;
+			targetProxy = 65CCCAF71F42DDCA004D1B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65CCCADE1F42DDCA004D1B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CCCADF1F42DDCA004D1B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65CCCAE31F42DDCA004D1B63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65CCCAE41F42DDCA004D1B63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65CCCAFD1F42DDCA004D1B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65CCCAFE1F42DDCA004D1B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65CCCB001F42DDCA004D1B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXS_cocopod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65CCCB011F42DDCA004D1B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXS_cocopod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65CCCB031F42DDCA004D1B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXS_cocopodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXS_cocopod.app/LXS_cocopod";
+			};
+			name = Debug;
+		};
+		65CCCB041F42DDCA004D1B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXS_cocopodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXS_cocopod.app/LXS_cocopod";
+			};
+			name = Release;
+		};
+		65CCCB061F42DDCA004D1B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXS_cocopodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXS_cocopod;
+			};
+			name = Debug;
+		};
+		65CCCB071F42DDCA004D1B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXS_cocopodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuxuanshuo.LXS-cocopodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXS_cocopod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65CCCACD1F42DDC9004D1B63 /* Build configuration list for PBXProject "LXS_cocopod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CCCAFD1F42DDCA004D1B63 /* Debug */,
+				65CCCAFE1F42DDCA004D1B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65CCCAFF1F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CCCB001F42DDCA004D1B63 /* Debug */,
+				65CCCB011F42DDCA004D1B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65CCCB021F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CCCB031F42DDCA004D1B63 /* Debug */,
+				65CCCB041F42DDCA004D1B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65CCCB051F42DDCA004D1B63 /* Build configuration list for PBXNativeTarget "LXS_cocopodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65CCCB061F42DDCA004D1B63 /* Debug */,
+				65CCCB071F42DDCA004D1B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65CCCACA1F42DDC9004D1B63 /* Project object */;
+}
